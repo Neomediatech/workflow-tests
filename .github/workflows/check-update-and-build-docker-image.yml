@@ -21,5 +21,3 @@ jobs:
       derived-image-repo-ref: master
       update-image: "true"
       build-test-image: "true"
-    secrets:
-      GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
