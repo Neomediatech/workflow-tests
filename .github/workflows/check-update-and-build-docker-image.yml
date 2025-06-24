@@ -9,6 +9,9 @@ on:
 jobs:
   update-images:
     uses: Neomediatech/gh-workflows/.github/workflows/check-and-build-docker-images.yml@main
+    permissions:
+      contents: read
+      packages: write
     with:
       base-image: ghcr.io/rspamd/rspamd-docker:latest
       derived-image-prefix: ghcr.io/neomediatech/rspamd
