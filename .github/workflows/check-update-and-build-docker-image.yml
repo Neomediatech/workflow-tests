@@ -14,7 +14,7 @@ jobs:
       packages: write
     secrets: inherit
     with:
-      base-image: ghcr.io/rspamd/rspamd-docker:latest
+      base-image: ghcr.io/rspamd/rspamd-docker
       derived-image-prefix: ghcr.io/neomediatech/rspamd
       #versions: '["latest", "3.8", "3.6"]'
       versions: '["3.9"]'
