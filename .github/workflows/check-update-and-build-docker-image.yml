@@ -11,8 +11,7 @@ jobs:
     uses: Neomediatech/gh-workflows/.github/workflows/check-and-build-docker-images.yml@main
     with:
       base-image: ghcr.io/rspamd/rspamd-docker:latest
-      derived-image-prefix: neomediatech/rspamd
-      #derived-image-prefix: ghcr.io/neomediatech/rspamd
+      derived-image-prefix: ghcr.io/neomediatech/rspamd
       #versions: '["latest", "3.8", "3.6"]'
       versions: '["3.7", "3.6"]'
       update-image: "true"
