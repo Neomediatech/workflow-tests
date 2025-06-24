@@ -12,6 +12,7 @@ jobs:
     permissions:
       contents: read
       packages: write
+    secrets: inherit
     with:
       base-image: ghcr.io/rspamd/rspamd-docker:latest
       derived-image-prefix: ghcr.io/neomediatech/rspamd
