@@ -1,0 +1,26 @@
+name: Test Loop
+
+on:
+  workflow_call:
+  workflow_dispatch: # Permette di avviare il workflow manualmente dalla UI di GitHub
+
+jobs:
+  test1:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        loop: [14, 33, 66, 11, 2, 7]
+      max-parallel: 1
+
+    steps:
+      - name: step 1
+        run: echo "::warning::step 1 loop ${{ matrix.node }} - $(date)"
+
+      - name: step 2
+        run: |
+          echo "::warning::step 2 loop ${{ matrix.node }} - $(date)"
+          exit 1
+        if: ${{ matrix.node }} == 66
+    
+      - name: step 3
+        run: echo "::warning::step 3 loop ${{ matrix.node }} - $(date)"
