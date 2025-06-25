@@ -20,7 +20,7 @@ jobs:
         run: |
           echo "::warning::step 2 loop ${{ matrix.loop }} - $(date)"
           exit 1
-        if: ${{ matrix.loop }} == 66
+        if: ${{ matrix.loop == 66 }}
     
       - name: step 3
         run: echo "::warning::step 3 loop ${{ matrix.loop }} - $(date)"
