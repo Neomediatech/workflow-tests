@@ -14,13 +14,13 @@ jobs:
 
     steps:
       - name: step 1
-        run: echo "::warning::step 1 loop ${{ matrix.node }} - $(date)"
+        run: echo "::warning::step 1 loop ${{ matrix.loop }} - $(date)"
 
       - name: step 2
         run: |
-          echo "::warning::step 2 loop ${{ matrix.node }} - $(date)"
+          echo "::warning::step 2 loop ${{ matrix.loop }} - $(date)"
           exit 1
-        if: ${{ matrix.node }} == 66
+        if: ${{ matrix.loop }} == 66
     
       - name: step 3
-        run: echo "::warning::step 3 loop ${{ matrix.node }} - $(date)"
+        run: echo "::warning::step 3 loop ${{ matrix.loop }} - $(date)"
