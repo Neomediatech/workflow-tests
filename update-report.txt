@@ -10,3 +10,4 @@ mer 9 lug 2025, 20:03:46, CEST --- ghcr.io/neomediatech/workflow-tests:useless U
 mer 9 lug 2025, 20:10:08, CEST --- ghcr.io/neomediatech/workflow-tests:latest UPDATED
 mer 9 lug 2025, 20:10:29, CEST --- ghcr.io/neomediatech/workflow-tests:useless UPDATED
 mer 9 lug 2025, 20:15:46, CEST --- ghcr.io/neomediatech/workflow-tests:useless UPDATED
+mer 9 lug 2025, 20:25:07, CEST --- ghcr.io/neomediatech/workflow-tests:useless UPDATED
