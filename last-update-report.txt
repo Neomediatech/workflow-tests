@@ -1,2 +1,1 @@
-mer 9 lug 2025, 20:15:27, CEST --- ghcr.io/neomediatech/workflow-tests:latest not-needed (image build needed: false)
-mer 9 lug 2025, 20:15:48, CEST --- ghcr.io/neomediatech/workflow-tests:useless UPDATED (image build needed: true)
+mer 9 lug 2025, 20:24:46, CEST --- ghcr.io/neomediatech/workflow-tests:latest not-needed (image build needed: false)
