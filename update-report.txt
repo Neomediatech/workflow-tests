@@ -3,3 +3,4 @@ mer 9 lug 2025, 19:08:32, CEST --- ghcr.io/neomediatech/workflow-tests:latest UP
 mer 9 lug 2025, 19:09:04, CEST --- ghcr.io/neomediatech/workflow-tests:test UPDATED
 mer 9 lug 2025, 19:26:34, CEST --- ghcr.io/neomediatech/workflow-tests:latest UPDATED
 mer 9 lug 2025, 19:26:56, CEST --- ghcr.io/neomediatech/workflow-tests:useless UPDATED
+mer 9 lug 2025, 19:35:31, CEST --- ghcr.io/neomediatech/workflow-tests:latest UPDATED
