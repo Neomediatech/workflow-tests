@@ -1,0 +1,5 @@
+FROM ubuntu:24.04
+
+RUN echo "test image"
+
+RUN date
