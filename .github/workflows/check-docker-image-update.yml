@@ -15,7 +15,7 @@ jobs:
   build-image:
     uses: Neomediatech/gh-workflows/.github/workflows/build-docker-image-bulk.yml@main
     with:
-      base-image: ghcr.io/neomediatech/unexists-image
+      base-image: ubuntu
       package-name: neomediatech/workflow-tests
       derived-image-prefix: ghcr.io/neomediatech/workflow-tests
       force-build: "false"
